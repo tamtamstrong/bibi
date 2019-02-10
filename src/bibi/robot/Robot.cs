@@ -5,8 +5,9 @@ namespace Bibi
 	public class Robot
 	{
 		private bool currentInput;
+		private bool currentOutput;
 
-		public bool Input 
+		public bool Input
 		{ 
 			get
 			{
@@ -27,7 +28,7 @@ namespace Bibi
 
 			private set
 			{
-
+				currentOutput = value;
 			}
 		}
 
