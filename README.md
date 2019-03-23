@@ -1,2 +1,2 @@
 # bibi
-A small robot
+A small short - term memory game.
